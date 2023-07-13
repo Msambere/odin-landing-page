@@ -5,7 +5,7 @@
 
 body{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .header {
@@ -35,10 +35,18 @@ a{
     padding: 16px;
 }
 
-.opening{
+
+.container.one{
     background-color: #1f2937;
     color: #f9faf8;
+    display: flex;
+    padding: 10px 50px;
 }
+
+.opening{
+    flex: 1;
+}
+
 
 .opening .hero{
     font-size: 48px;
@@ -46,10 +54,18 @@ a{
 
 }
 
-
 .opening .subtext{
     color: #e5e7eb;
     font-size: 18px;
+}
+
+.image{
+    background-color: gray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    ;
 }
 
 .title{
