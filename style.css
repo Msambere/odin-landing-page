@@ -12,7 +12,27 @@ body{
     background-color: #1f2937;
     color: #f9faf8;
     font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px 100px 50px;
+}
 
+.logo{
+    font-weight: 900;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    color:#f9faf8;
+    padding: 16px;
 }
 
 .opening{
@@ -46,6 +66,7 @@ body{
     font-size: 36px;
     font-weight: 200;
 }
+
 
 .footer {
     background-color: #1f2937;
