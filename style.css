@@ -134,6 +134,34 @@ a{
     text-align: right;
 }
 
+/* Container four styling*/
+
+.container.four{
+    background-color: #3882f6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    padding: 25px 50px;
+}
+
+.big{
+    color: white;
+    font-weight: 900;
+    text-align: left;
+}
+
+.small {
+    color: #e5e7eb;
+    text-align: left;
+}
+
+button#bottom {
+    border: 2px solid #e5e7eb;
+}
+
+
 .footer {
     background-color: #1f2937;
     color: #e5e7eb;
