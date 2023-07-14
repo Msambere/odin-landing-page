@@ -8,6 +8,7 @@ body{
     flex-direction: column;
 }
 
+/* Header styling*/
 .header {
     background-color: #1f2937;
     color: #f9faf8;
@@ -35,7 +36,7 @@ a{
     padding: 16px;
 }
 
-
+/*Container one styling*/
 .container.one{
     background-color: #1f2937;
     color: #f9faf8;
@@ -68,11 +69,51 @@ a{
     ;
 }
 
+/*Container two styling*/
+
+.container.two{
+    border: 1px dotted red;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .title{
+    border: 1px dotted red;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
+    margin-bottom: 50px;
 }
+
+.information {
+    border: 1px dotted red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.blue-box {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.text{
+    text-align: center;
+}
+
+/*Contatiner three styling*/
 .container.three {
     background-color: #e5e7eb;
     color: #1f2937;
@@ -86,8 +127,15 @@ a{
 
 .footer {
     background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
     background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 5px 16px;
 }
