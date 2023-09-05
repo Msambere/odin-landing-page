@@ -41,11 +41,14 @@ a{
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 10px 50px;
+    padding: 10px 75px;
+    gap: 80px;
+    
 }
 
 .opening{
     flex: 1;
+    margin-bottom: 100px;
 }
 
 
@@ -58,6 +61,7 @@ a{
 .opening .subtext{
     color: #e5e7eb;
     font-size: 18px;
+    margin-bottom: 10px;
 }
 
 .image{
@@ -66,20 +70,20 @@ a{
     align-items: center;
     justify-content: center;
     flex:1;
-    ;
+    height: 200px;
 }
 
 /*Container two styling*/
 
 .container.two{
-    border: 1px dotted red;
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
 }
 
 .title{
-    border: 1px dotted red;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -87,10 +91,10 @@ a{
 }
 
 .information {
-    border: 1px dotted red;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 40px;
    
 }
 
@@ -111,6 +115,7 @@ a{
 
 .text{
     text-align: center;
+    width: 150px;
 }
 
 /*Contatiner three styling*/
@@ -120,18 +125,20 @@ a{
     display: flex;
     flex-direction: column;
     padding: 50px 100px;
-
 }
 
 .quote {
     font-size: 36px;
     font-weight: 200;
+    margin: 50px 75px 10px 75px;
+
 }
 
 .speaker{
     font-size: 24px;
     font-weight: 900;
     text-align: right;
+    margin-bottom: 50px;
 }
 
 /* Container four styling*/
@@ -142,17 +149,24 @@ a{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 700px;
     padding: 25px 50px;
+    margin: 50px 75px;
+}
+
+.text2{
+    border: 1px dotted red;
+    width: 600px;
 }
 
 .big{
+    border: 1px dotted red;
     color: white;
     font-weight: 900;
     text-align: left;
 }
 
 .small {
+    border: 1px dotted red;
     color: #e5e7eb;
     text-align: left;
 }
@@ -163,11 +177,12 @@ button#bottom {
 
 
 .footer {
-    background-color: #1f2937;
-    color: #e5e7eb;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 20px;
 }
 
 button {
